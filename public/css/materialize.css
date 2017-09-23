@@ -7567,7 +7567,7 @@ input[type=range]:focus::-ms-fill-upper {
 #sidenav-overlay {
   position: fixed;
   top: 0;
-  left: 0;
+  left: 300;
   right: 0;
   height: 120vh;
   background-color: rgba(0, 0, 0, 0.5);
