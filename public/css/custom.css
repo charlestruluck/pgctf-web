@@ -38,11 +38,28 @@ img.logo {
   margin-top: 4em;
 }
 
+/*body.home {
+    background-image: url('../images/copaporterfinal.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 50%;
+}*/
+
+.container-home {
+  margin-top: 5em;
+}
+
 .card-img {
   height: 200px;
   width: 100%;
 }
 
-.btn {
-  padding-bottom: 1em !important;
+.parallax-container {
+  height: 40em;
+}
+
+p.json {
+  font-size: 24px;
+  font-family: monospace;
 }

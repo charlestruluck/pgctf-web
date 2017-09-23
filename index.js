@@ -13,6 +13,10 @@ router.get("/",function(req,res){
 	  res.sendFile(path + "index.html");
 });
 
+router.get("/practice",function(req,res){
+	  res.sendFile(path + "practice.html");
+});
+
 router.get("/about",function(req,res){
 	  res.sendFile(path + "about.html");
 });
