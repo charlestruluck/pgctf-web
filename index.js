@@ -3,6 +3,8 @@ var app = express();
 var router = express.Router();
 var path = __dirname + '/views/';
 
+app.set('port', (process.env.PORT || 8080));
+
 router.use(function (req,res,next) {
 	  next();
 });
@@ -25,6 +27,3 @@ app.use("*",function(req,res){
 	  res.sendFile(path + "404.html");
 });
 
-app.listen(8080,function(){
-	  console.log("Running on port 8080");
-});
