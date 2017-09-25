@@ -19,6 +19,10 @@
   color: radial-gradient(#FCDD21, #FCBB21);
 }
 
+.bash {
+  color: #ADADAD;
+}
+
 .pg-red-text {
   color: #7F0011 !important;
 }
