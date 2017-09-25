@@ -25,6 +25,10 @@ router.get("/contact",function(req,res){
 	  res.sendFile(path + "contact.html");
 });
 
+router.get("/register",function(req,res){
+	  res.sendFile(path + "register.html");
+});
+
 app.use(express.static('public'))
 app.use("/",router);
 app.use("*",function(req,res){
